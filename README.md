@@ -53,14 +53,14 @@ Provides a foundational framework for designing predictable and scalable lock ma
   | 11    | 6.3                 | 2.9                          | 53.97           |
 
 **Citation** \
-Distance Aware Routing for Hop Efficient Systems. \
+Deterministic Distributed Lock Management for Multi Node Environments. \
 Vijaya Krishna Namala \
-Journal of Advances in Developmental Research \
-E-ISSN- 0976-4844  \
+ConfTWO ..Name \
+E-ISSN- *****  \
 **License** \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijaidr.org/ \
+https://www.ijaidr.org/Conf TWO lik \
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/vijaya-krishna-namala-a42b2958 | **Email**: vijaya.namala@gmail.com
 
