@@ -5,12 +5,10 @@
 * Published In : ConfTWO Name
 * Publication Date: Feb 2026
 
-
 **Abstract:**
 Distributed lock management in multi node systems often relies on nondeterministic approaches that lead to deadlocks, unpredictable execution, and increased coordination overhead.
 This work proposes a deterministic lock management strategy that enforces predefined lock ordering to eliminate circular wait conditions. By introducing structured lock acquisition, 
 the approach improves predictability and reduces contention related delays. Experimental analysis shows significantly lower deadlock rates and better scalability compared to conventional methods.
-
 
 **Key Contributions**
 * **Deterministic Lock Management Framework Design:**\
@@ -44,13 +42,13 @@ Provides a foundational framework for designing predictable and scalable lock ma
 
 **Experimental Results (Summary)**:
 
-  | Nodes | Static routing hops | Proximity aware routing hops | Improvement (%) |
-  |-------|---------------------| -----------------------------| ----------------|
-  | 3     | 3.2                 | 1.7                          | 46.88           |
-  | 5     | 4                   | 2                            | 50.00           |
-  | 7     | 4.8                 | 2.3                          | 52.08           |
-  | 9     | 5.6                 | 2.6                          | 53.57           |
-  | 11    | 6.3                 | 2.9                          | 53.97           |
+  | Nodes | Nondeterministic Deadlock Rate (%) | Deterministic Deadlock Rate (%) | Improvement (%) |
+  |-------|------------------------------------| --------------------------------| ----------------|
+  | 3     | 6.5                                | 1.2                             | 81.54           |
+  | 5     | 9.8                                | 1.5                             | 84.69           |
+  | 7     | 13.4                               | 1.7                             | 87.31           |
+  | 9     | 16.9                               | 1.9                             | 88.76           |
+  | 11    | 19.6                               | 2                               | 89.80           |
 
 **Citation** \
 Deterministic Distributed Lock Management for Multi Node Environments. \
@@ -60,7 +58,7 @@ E-ISSN- *****  \
 **License** \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijaidr.org/Conf TWO lik \
+https://www.i********/Conf TWO lik \
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/vijaya-krishna-namala-a42b2958 | **Email**: vijaya.namala@gmail.com
 
