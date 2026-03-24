@@ -13,35 +13,34 @@ the approach improves predictability and reduces contention related delays. Expe
 
 
 **Key Contributions**
+* **Deterministic Lock Management Framework Design:**\
+Developed a structured lock management approach that enforces predefined lock ordering across nodes to eliminate ambiguity in lock acquisition.
 
-* **Distance Aware Routing Framework Design:**\
-Developed a routing approach that explicitly considers communication distance to reduce hop count and improve efficiency in distributed systems.
+* **Deadlock Prevention Through Ordered Locking:**\
+Introduced a mechanism that prevents circular wait conditions at design level by ensuring consistent lock request sequencing across transactions.
 
-* **Hop Count Focused Optimization Mechanism:**\
-Introduced a strategy that treats hop count as a primary metric, enabling reduction of unnecessary intermediate node traversal during request routing.
+* **Reduction of Reactive Coordination Overhead:**\
+Designed a system that minimizes reliance on deadlock detection, rollback, and retry mechanisms by avoiding contention induced conflicts proactively.
 
-* **Comparative Analysis of Routing Strategies:**\
-Conducted evaluation comparing static routing, uniform placement, and distance aware routing to quantify differences in hop count behavior.
-
-* **Scalability Evaluation Across Cluster Sizes:**\
-Analyzed hop count trends across clusters with 3, 5, 7, 9, and 11 nodes to study communication efficiency and scalability impact.
+* **Scalability Evaluation Across Multi Node Environments:**\
+Conducted experiments on clusters with 3, 5, 7, 9, and 11 nodes to analyze deadlock behavior and coordination efficiency under increasing concurrency.
 
 **Relevance & Real World Impact**
 
-* **Reduced Communication Overhead :**\
-Distance aware routing significantly lowers hop count, reducing unnecessary network traversal and improving communication efficiency.
+* **Significant Deadlock Reduction :**\
+Deterministic locking maintains consistently low deadlock rates compared to nondeterministic approaches, even as system size and contention increase.
 
-* **Improved Network Efficiency :**\
-Fewer intermediate hops reduce load on network components, minimizing congestion and improving overall system performance.
+* **Improved System Predictability :**\
+Structured lock acquisition ensures stable and predictable execution behavior, reducing variability in transaction processing.
 
 * **Enhanced Scalability in Distributed Systems :**\
-Controlled hop growth ensures efficient scaling as cluster size increases without excessive communication overhead.
+The approach demonstrates controlled behavior as node count increases, supporting efficient scaling without performance degradation.
 
-* **Stable and Predictable Routing Behavior :**\
-Limiting hop escalation leads to more consistent performance and avoids unpredictable delays caused by deep routing paths.
+* **Reduced Coordination and Retry Overhead :**\
+By eliminating circular waits, the system reduces unnecessary retries, rollbacks, and synchronization delays.
 
 * **Academic and Practical Contribution :**\
-Provides a structured framework for hop aware system design, supporting further research and real world implementation in distributed platforms.
+Provides a foundational framework for designing predictable and scalable lock management mechanisms in distributed transactional systems.
 
 **Experimental Results (Summary)**:
 
