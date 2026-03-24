@@ -4,8 +4,7 @@
 * Author: Vijaya Krishna Namala
 * Published In : ConfTWO Name
 * Publication Date: Feb 2026
-* E-ISSN: 0976-4844
-* Impact Factor : 9.71
+
 
 **Abstract:**
 Distributed lock management in multi node systems often relies on nondeterministic approaches that lead to deadlocks, unpredictable execution, and increased coordination overhead.
